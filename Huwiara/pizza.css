@@ -1,0 +1,75 @@
+body {
+  display: flex; /* Use Flexbox on the body */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
+  background-color: #f0f0f0; /* Optional background color */
+}
+#container {
+    height: 250px;
+    width: 250px;
+    background-color: #f0c403;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+  }
+
+
+  .bord{
+    border: 10px solid rgb(221, 163, 18);
+    border-radius: 50%;
+    height: 230px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .slice{
+    height: 250px;
+    width: 1px;
+    background-color: white;
+    position: absolute; /* Allows for rotation around the center */
+    transform-origin: center; /* Set the pivot point for rotation */
+  }
+  
+  .slice1{
+    
+    transform: rotate(45deg); /* Adjust as needed */
+
+  }
+  .slice3{
+   
+    transform: rotate(90deg); /* Adjust as needed */
+
+  }
+  .slice2{
+    
+    transform: rotate(125deg); /* Adjust as needed */
+
+  }
+  
+  .ham{
+    background-color:red;
+    border-radius:50%;
+    height:25px;
+    width:25px;
+    position: absolute;
+    top: 60px; left: 40px;
+    box-shadow: 20px 35px red, /* Бүдүүн сүүдэр */
+    0 40px red,   /* Бага зэрэг бүдэг сүүдэр */
+    23px 54px red, /* Тод сүүдэр */
+    34px 40px red,   /* Бага зэрэг бүдэг сүүдэр */
+    23px 150px red,
+   65px 40px red,   /* Бага зэрэг бүдэг сүүдэр */
+    23px 54px red,
+    100px 87px red,   /* Бага зэрэг бүдэг сүүдэр */
+    23px 54px red,
+    96px 100px red,   /* Бага зэрэг бүдэг сүүдэр */
+    23px 54px red,
+    54px 65px red; /* Тод сүүдэр */  }
